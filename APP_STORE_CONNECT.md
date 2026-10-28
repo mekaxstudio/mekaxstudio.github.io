@@ -12,7 +12,7 @@ Aşağıdaki her adres https://mekaxstudio.github.io üzerinde gerçek bir sayfa
 | Color Sort | com.ykmstudio.colorsort | https://mekaxstudio.github.io/colorsort/privacy.html | https://mekaxstudio.github.io/colorsort/ | https://mekaxstudio.github.io/colorsort/ |
 | Flow Dots | com.ykmstudio.flowdots | https://mekaxstudio.github.io/flowdots/privacy.html | https://mekaxstudio.github.io/flowdots/ | https://mekaxstudio.github.io/flowdots/ |
 | Dunk Wings | com.ykmstudio.dunkwings | https://mekaxstudio.github.io/dunkwings/privacy.html | https://mekaxstudio.github.io/dunkwings/ | https://mekaxstudio.github.io/dunkwings/ |
-| Meow Arrows (eski: Arrow Shift) | com.ykmstudio.arrowshift | https://mekaxstudio.github.io/arrowshift/privacy.html | https://mekaxstudio.github.io/arrowshift/ | https://mekaxstudio.github.io/arrowshift/ |
+| Meow Arrows (eski: Arrow Shift) | com.ykmstudio.arrowshift | https://mekaxstudio.github.io/meowarrows/privacy.html | https://mekaxstudio.github.io/meowarrows/ | https://mekaxstudio.github.io/meowarrows/ |
 
 App Store Connect'te alanların yeri:
 
