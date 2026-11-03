@@ -15,6 +15,7 @@ GitHub Pages bu repoyu Jekyll ile kendisi derler; ayrı bir build adımı yok, `
 | `/<oyun>/privacy-tr.html` (KVKK aydınlatma metni) | `<oyun>/privacy-tr.html` |
 | `/<oyun>/terms.html` | `<oyun>/terms.html` |
 | `/app-ads.txt` (AdMob, tüm oyunlar için tek dosya) | `app-ads.txt` |
+| `/mekax-os/` (Google OAuth "Application home page"; gizlilik, şartlar, veri silme) | `mekax-os/` |
 
 Oyunlar: `blockstreak`, `colorsort`, `flowdots`, `dunkwings`, `meowarrows`, `farmmow`.
 

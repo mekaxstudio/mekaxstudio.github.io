@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% assign base = '/mekax-os/' %}
+<div class="game-head">
+  <div>
+    <p class="kicker" lang="en">Marketing production tool</p>
+    <p class="game-name">Mekax OS</p>
+  </div>
+</div>
+<nav class="tabs" aria-label="Mekax OS">
+  <a href="{{ base | relative_url }}"{% if page.tab == 'home' %} aria-current="page"{% endif %}>About</a>
+  <a href="{{ base | append: 'privacy.html' | relative_url }}"{% if page.tab == 'privacy' %} aria-current="page"{% endif %}>Privacy Policy</a>
+  <a href="{{ base | append: 'privacy-tr.html' | relative_url }}" lang="tr"{% if page.tab == 'privacy-tr' %} aria-current="page"{% endif %}>Gizlilik (TR)</a>
+  <a href="{{ base | append: 'terms.html' | relative_url }}"{% if page.tab == 'terms' %} aria-current="page"{% endif %}>Terms of Use</a>
+  <a href="{{ base | append: 'data-deletion.html' | relative_url }}"{% if page.tab == 'deletion' %} aria-current="page"{% endif %}>Data Deletion</a>
+</nav>
+<article class="doc">
+{{ content }}
+</article>
