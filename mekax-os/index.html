@@ -12,7 +12,7 @@ description: Mekax OS is Mekax Studio's internal tool for making gameplay market
 <ul>
   <li><strong>Records gameplay.</strong> It records real gameplay of our games, such as Color Sort.</li>
   <li><strong>Makes creatives.</strong> It produces vertical marketing videos from those recordings, with or without a short opening text.</li>
-  <li><strong>Uploads privately.</strong> A team member can connect a YouTube channel and upload a chosen video with its title, description and tags. Uploads are always set to private. This version cannot publish a video publicly. A team member can also delete a video it uploaded, after confirming.</li>
+  <li><strong>Uploads and publishes.</strong> A team member can connect a YouTube channel and upload a chosen video with its title, description and tags. Uploads start as private. A video becomes public only after an authorized team member approves it, and a team member can delete a video the app uploaded, after confirming.</li>
 </ul>
 
 <h2>Who can use it</h2>
@@ -22,8 +22,8 @@ description: Mekax OS is Mekax Studio's internal tool for making gameplay market
 <p>Mekax OS uses YouTube API Services. When a channel is connected, it asks Google for three permissions:</p>
 <ul>
   <li><strong>Upload videos</strong> (<code>youtube.upload</code>): to upload the video you choose to your channel.</li>
-  <li><strong>See, edit and permanently delete your videos</strong> (<code>youtube.force-ssl</code>): only so a team member can delete a video the app uploaded, after confirming it. The app does not edit or delete anything else.</li>
-  <li><strong>View your YouTube account</strong> (<code>youtube.readonly</code>): to show which channel is connected, and to check that an uploaded video exists, is private and has finished processing.</li>
+  <li><strong>See, edit and permanently delete your videos</strong> (<code>youtube.force-ssl</code>): only to change a video the app uploaded from private to public, or to delete it, each after a team member confirms it. The app does not edit or delete anything else.</li>
+  <li><strong>View your YouTube account</strong> (<code>youtube.readonly</code>): to show which channel is connected, and to check that an uploaded video exists, its visibility and that it has finished processing.</li>
 </ul>
 <p>Mekax OS uses this access only for these purposes. It does not read comments, subscribers, watch history or analytics.</p>
 
