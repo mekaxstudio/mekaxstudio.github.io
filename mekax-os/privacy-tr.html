@@ -5,7 +5,7 @@ lang: tr
 title: "Mekax OS – Gizlilik Politikası"
 ---
 <h1>Gizlilik Politikası ve Aydınlatma Metni</h1>
-<p class="updated">Mekax OS · Yürürlük tarihi: 3 Kasım 2026 · <a href="privacy.html" lang="en">English</a></p>
+<p class="updated">Mekax OS · Yürürlük tarihi: 8 Kasım 2026 · <a href="privacy.html" lang="en">English</a></p>
 <p>Mekax OS ("uygulama"), Mekax Studio ("biz") tarafından işletilen, ekip içi bir pazarlama üretim aracıdır. Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında uygulamanın hangi bilgileri neden kullandığını ve haklarınızı açıklar. Yalnızca Mekax OS için geçerlidir; oyunlarımızın her birinin kendi gizlilik politikası vardır.</p>
 
 <h2>Özet</h2>
@@ -26,6 +26,18 @@ title: "Mekax OS – Gizlilik Politikası"
 <p>Çift yüklemeyi önlemek için uygulama, kendi yüklediği videoyu bulmak üzere kanalın en son yüklenen 50 videosuna kadar olan videoların etiketler dahil bilgilerine bakabilir. Bu bilgileri yalnızca karşılaştırma için kullanır ve saklamaz.</p>
 <p>Uygulama yalnızca kendi yüklediği videoları ve yalnızca bir ekip üyesi onayladığında herkese açık yapabilir veya silebilir. Yorumları, aboneleri, izleme geçmişini, analiz verilerini veya Google hesap parolanızı okumaz ve saklamaz.</p>
 
+<h2 id="tiktok">TikTok'tan alınan bilgiler</h2>
+<p>TikTok bağlantısı eklenmektedir. Bağlantı açıldığında ve ekip üyesi hesaplarımızdan birini TikTok Login Kit ile bağladığında uygulama TikTok'tan yalnızca şu izinleri ister:</p>
+<ul>
+  <li><strong><code>user.info.basic</code></strong>: hangi hesabın bağlı olduğunu göstermek için. Uygulama hesabın open ID'sini ve görünen adını saklar; profil fotoğrafını saklamaz.</li>
+  <li><strong><code>video.upload</code></strong>: videoyu hesabın TikTok gelen kutusuna taslak olarak göndermek için. Paylaşımı ekip üyesi TikTok uygulamasında tamamlar.</li>
+  <li><strong><code>video.publish</code></strong>: TikTok uygulamayı doğrudan paylaşım için onayladıktan sonra, bir videoyu yalnızca ekip üyesi inceleyip gizlilik ve etkileşim ayarlarını seçtikten sonra doğrudan paylaşmak için.</li>
+</ul>
+<p>Bağlı bir TikTok hesabı için uygulama yetkilendirme anahtarlarını (YouTube'daki gibi şifreli), hesabın open ID'sini ve görünen adını, gönderilen her video için TikTok'un döndürdüğü paylaşım/yükleme kimliğini, durumunu ve gönderilen açıklamayı saklar. Doğrudan paylaşımdan önce hesabın güncel paylaşım seçeneklerini TikTok'tan sorar; bunları yalnızca seçenekleri göstermek için kullanır ve saklamaz. Takipçileri, mesajları, yorumları, beğenileri, analizleri veya TikTok şifrenizi okumaz ya da saklamaz; ekip üyesinin onaylamadığı hiçbir şeyi paylaşmaz. Bkz. <a href="https://www.tiktok.com/legal/page/global/privacy-policy/tr-TR">TikTok Gizlilik Politikası</a>.</p>
+
+<h2>Telegram onay bildirimleri</h2>
+<p>Ekip üyesi bir Telegram sohbetini bağlayabilir; uygulama onayı oradan ister. Bunun için Telegram bot token'ını (şifreli), botun kullanıcı adını, bağlı sohbetin kimliğini ve bağlantıyı kuran ekip üyesini saklar. Video hazır olduğunda bu sohbete başlıkları, açıklamayı, kontrolleri, kanal veya hesap adını ve private videonun linkini gönderir; private linki olmayan TikTok için incelenebilmesi amacıyla video dosyasını gönderecektir. Bu mesajlar Telegram tarafından iletilir ve <a href="https://telegram.org/privacy">Telegram Gizlilik Politikası</a>'na göre saklanır. Uygulamada bağlantıyı kaldırmak bot token'ını ve sohbet bağlantısını aktif veritabanından siler; gönderilmiş mesajlar siz silene kadar Telegram'da kalır.</p>
+
 <h2>Kullanım amacı ve hukuki sebep</h2>
 <p>Bu bilgileri yalnızca hangi kanalın bağlı olduğunu göstermek, seçtiğiniz videoları yüklemek, durumlarını kontrol etmek, bir ekip üyesi onayladığında videoyu herkese açık yapmak veya silmek ve hataları bildirmek için kullanırız. Google API'lerinden alınan bilgilerin kullanımı, Sınırlı Kullanım (Limited Use) şartları dahil <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na uygundur. Bu bilgileri yapay zeka modeli eğitmek için kullanmayız.</p>
 <p>Hukuki sebep: Bağlantı isteğinizi yerine getirmek için gerekli olması (KVKK m.5/2-c) ve aracı güvenli şekilde işletmeye yönelik meşru menfaatimizdir (KVKK m.5/2-f).</p>
@@ -40,10 +52,10 @@ title: "Mekax OS – Gizlilik Politikası"
 <p>Uygulama çerezleri yalnızca oturumunuzu açık tutmak ve giriş ile kanal bağlama isteklerini korumak için kullanır. Tarayıcınız son seçtiğiniz ürünü de hatırlar. Uygulama reklam göstermez, üçüncü taraf reklam veya analiz çerezi kullanmaz.</p>
 
 <h2>Paylaşım ve yurt dışına aktarım</h2>
-<p>Bilgileri yalnızca bu özellikleri sunmak için gerektiği kadar, örneğin video yüklerken, Google ve YouTube ile paylaşırız. Bu aktarım ABD dahil yurt dışındaki sunuculara yapılabilir. Başka kimseye aktarmayız; yasal zorunluluk, güvenlik veya birleşme, devralma ya da varlık satışı halleri bunun dışındadır ve Google API Hizmetleri Kullanıcı Verileri Politikası'nın gerektirdiği yerde önceden açık onayınız alınır. Ayrıntılar: <a href="http://www.google.com/policies/privacy">Google Gizlilik Politikası</a>.</p>
+<p>Bilgileri yalnızca bu özellikleri sunmak için gerektiği kadar, örneğin video yüklerken veya onay mesajı gönderirken, Google ve YouTube, TikTok ve Telegram ile paylaşırız. Bu aktarım ABD dahil yurt dışındaki sunuculara yapılabilir. Başka kimseye aktarmayız; yasal zorunluluk, güvenlik veya birleşme, devralma ya da varlık satışı halleri bunun dışındadır ve Google API Hizmetleri Kullanıcı Verileri Politikası'nın gerektirdiği yerde önceden açık onayınız alınır. Ayrıntılar: <a href="http://www.google.com/policies/privacy">Google Gizlilik Politikası</a>.</p>
 
 <h2>Saklama yeri ve güvenlik</h2>
-<p>Veriler, yedekleri dahil Mekax Studio'nun işlettiği bir bilgisayarda saklanır. Yetkilendirme token'ları ve yükleme oturumu adresleri AES-256-GCM ile şifrelenir; uygulamanın ekranlarında ve loglarında görünmez. Uygulama Google'a HTTPS ile bağlanır. Google, videoları ve kanal verilerini kendi sunucularında saklar. Hiçbir sistem tamamen güvenli değildir, ancak erişimi ekibimizle sınırlarız.</p>
+<p>Veriler, yedekleri dahil Mekax Studio'nun işlettiği bir bilgisayarda saklanır. Yetkilendirme token'ları, Telegram bot token'ı ve yükleme oturumu adresleri AES-256-GCM ile şifrelenir; uygulamanın ekranlarında ve loglarında görünmez. Uygulama Google'a, TikTok'a ve Telegram'a HTTPS ile bağlanır. Her platform videoları ve hesap verilerini kendi sunucularında saklar. Hiçbir sistem tamamen güvenli değildir, ancak erişimi ekibimizle sınırlarız.</p>
 
 <h2>Saklama süresi</h2>
 <ul>
@@ -51,10 +63,10 @@ title: "Mekax OS – Gizlilik Politikası"
   <li><strong>Kanal bilgileri ve yükleme kayıtları:</strong> Geçmiş işlemlerin kaydı olarak, silinmesini isteyene kadar saklanır. Talebinizden sonra mümkün olan en kısa sürede ve en geç 7 takvim günü içinde sileriz.</li>
   <li><strong>Ekip hesabı kayıtları ve loglar:</strong> Uygulamayı işletmek ve güvenliğini sağlamak için gerektiği sürece veya yasaların izin verdiği ölçüde silinmesini isteyene kadar saklanır.</li>
 </ul>
-<p>Yüklenmiş videolar, siz YouTube'dan silene kadar orada kalır. Bkz. <a href="data-deletion.html">Data Deletion</a>.</p>
+<p>Yüklenmiş videolar, siz YouTube'dan veya TikTok'tan silene kadar orada kalır. Bkz. <a href="data-deletion.html">Data Deletion</a>.</p>
 
 <h2>Erişimi iptal etme</h2>
-<p>Kanal bağlantısını uygulamanın Sosyal Medya Hesapları ekranından kesebilirsiniz; bu işlem Google'dan erişimi iptal etmesini de ister. Erişimi istediğiniz zaman <a href="https://security.google.com/settings/security/permissions">Google güvenlik ayarlarınızdan</a> da iptal edebilirsiniz.</p>
+<p>Kanal bağlantısını uygulamanın Sosyal Medya Hesapları ekranından kesebilirsiniz; bu işlem Google'dan erişimi iptal etmesini de ister. Erişimi istediğiniz zaman <a href="https://security.google.com/settings/security/permissions">Google güvenlik ayarlarınızdan</a> da iptal edebilirsiniz. TikTok bağlantısı açıldığında, TikTok hesabının bağlantısını aynı ekrandan kesmek token'larını siler ve TikTok'tan erişimi iptal etmesini ister; uygulamayı TikTok uygulamasında Ayarlar ve gizlilik › Güvenlik › Uygulama izinlerini yönet bölümünden de kaldırabilirsiniz.</p>
 
 <h2>Haklarınız (KVKK m.11)</h2>
 <p>Kişisel verinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini veya silinmesini isteme, işlemeye itiraz etme ve zarara uğramanız halinde tazminat talep etme haklarına sahipsiniz. Talep, soru ve şikâyetleriniz için aşağıdaki adrese e-posta gönderebilirsiniz. Ayrıca Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz.</p>

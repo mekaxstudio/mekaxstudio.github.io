@@ -5,18 +5,21 @@ lang: en
 title: "Mekax OS – Data Deletion"
 ---
 <h1>Data Deletion</h1>
-<p class="updated">Mekax OS · Effective date: November 3, 2026</p>
+<p class="updated">Mekax OS · Effective date: November 8, 2026</p>
 <p>This page explains how to remove a connected account's data from Mekax OS.</p>
 
-<h2>1. Disconnect the channel</h2>
-<p>On the app's Social Media Accounts screen, choose <strong>Disconnect</strong>. The app immediately deletes the channel's authorization tokens from its active database and asks Google to revoke its access.</p>
+<h2>1. Disconnect the channel or account</h2>
+<p>On the app's Social Media Accounts screen, choose <strong>Disconnect</strong>. The app immediately deletes the channel's authorization tokens from its active database and asks Google to revoke its access. Once the TikTok connection is available, disconnecting a TikTok account works the same way: its tokens are deleted and TikTok is asked to revoke the app's access. You can also remove the app in the TikTok app under Settings and privacy › Security › Manage app permissions.</p>
 <p>You can also revoke access yourself in your <a href="https://security.google.com/settings/security/permissions">Google security settings</a>. Revoking there stops the app's access to your channel; to delete the records described below as well, send the request in step 2.</p>
 
 <h2>2. Ask us to delete the remaining records</h2>
-<p>Email <a href="mailto:{{ site.email }}">{{ site.email }}</a> from an address we can link to the account, and include the channel name or channel ID. We will delete the channel details and upload records held by the app as soon as possible and within 7 calendar days of your request, and we will confirm by email. Copies in backups are deleted when those backups are removed.</p>
+<p>Email <a href="mailto:{{ site.email }}">{{ site.email }}</a> from an address we can link to the account, and include the channel or account name or ID. We will delete the channel details and upload records held by the app as soon as possible and within 7 calendar days of your request, and we will confirm by email. Copies in backups are deleted when those backups are removed.</p>
+
+<h2>Telegram approval chat</h2>
+<p>On the Automation screen, choose <strong>Unlink</strong> in the Telegram card. The app deletes the bot token and the chat link from its active database. Messages already sent stay in the Telegram chat until you delete them there.</p>
 
 <h2>What is not deleted this way</h2>
-<p>Videos already uploaded stay on YouTube. To remove them, delete them in <a href="https://studio.youtube.com/">YouTube Studio</a>, or use <strong>Delete from YouTube</strong> on the app's Publishing screen.</p>
+<p>Videos already uploaded stay on YouTube or TikTok. To remove them from YouTube, delete them in <a href="https://studio.youtube.com/">YouTube Studio</a>, or use <strong>Delete from YouTube</strong> on the app's Publishing screen. To remove them from TikTok, delete them in the TikTok app.</p>
 
 <h2>More information</h2>
 <p>See the <a href="privacy.html">Privacy Policy</a> for what the app stores and why.</p>

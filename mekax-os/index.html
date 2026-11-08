@@ -3,16 +3,17 @@ layout: mekax-os
 tab: home
 lang: en
 title: "Mekax OS"
-description: Mekax OS is Mekax Studio's internal tool for making gameplay marketing videos and uploading them privately to our own YouTube channel.
+description: Mekax OS is Mekax Studio's internal tool for making gameplay marketing videos and publishing them, after a team member's approval, to our own YouTube channels and TikTok accounts.
 ---
 <h1>Mekax OS</h1>
-<p class="lead">Mekax OS is Mekax Studio's internal tool for making marketing videos from our own games and uploading them to our YouTube channel.</p>
+<p class="lead">Mekax OS is Mekax Studio's internal tool for making marketing videos from our own games and publishing them to our own YouTube channels and, soon, TikTok accounts.</p>
 
 <h2>What it does</h2>
 <ul>
   <li><strong>Records gameplay.</strong> It records real gameplay of our games, such as Color Sort.</li>
-  <li><strong>Makes creatives.</strong> It produces vertical marketing videos from those recordings, with or without a short opening text.</li>
-  <li><strong>Uploads and publishes.</strong> A team member can connect a YouTube channel and upload a chosen video with its title, description and tags. Uploads start as private. A video becomes public only after an authorized team member approves it, and a team member can delete a video the app uploaded, after confirming.</li>
+  <li><strong>Makes videos.</strong> It turns those recordings into vertical videos with our game's logo, a call to action and an end screen, and writes their titles and descriptions in several languages.</li>
+  <li><strong>Uploads and publishes after approval.</strong> A team member connects our own YouTube channel. Uploads start as private, and the app asks a team member for approval in the app or in our team's Telegram chat. A video becomes public only after an authorized team member approves it, and a team member can delete a video the app uploaded, after confirming.</li>
+  <li><strong>TikTok (being added).</strong> Through TikTok Login Kit and the Content Posting API, the app will send an approved video to one of our TikTok accounts, either as a draft in its TikTok inbox or, once TikTok allows it, as a post with the settings the team member chooses.</li>
 </ul>
 
 <h2>Who can use it</h2>
@@ -27,10 +28,13 @@ description: Mekax OS is Mekax Studio's internal tool for making gameplay market
 </ul>
 <p>Mekax OS uses this access only for these purposes. It does not read comments, subscribers, watch history or analytics.</p>
 
+<h2>Why it asks for access to TikTok</h2>
+<p>When the TikTok connection is switched on, Mekax OS will ask TikTok for <code>user.info.basic</code> (to show which account is connected), <code>video.upload</code> (to send an approved video to the account's inbox as a draft) and, after TikTok's review, <code>video.publish</code> (to post an approved video directly). It will not read followers, messages, comments or analytics. See the <a href="privacy.html#tiktok">Privacy Policy</a>.</p>
+
 <h2>Policies</h2>
 <ul>
   <li><a href="privacy.html">Privacy Policy</a> (<a href="privacy-tr.html" lang="tr">Türkçe</a>)</li>
-  <li><a href="terms.html">Terms of Use</a></li>
+  <li><a href="terms.html">Terms of Service</a></li>
   <li><a href="data-deletion.html">Data Deletion</a></li>
 </ul>
 
