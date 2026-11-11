@@ -4,25 +4,25 @@
 
 - slug: blockstreak
   name: Block Streak
-  store_name: "Block Streak: Block Puzzle"
+  store_name: "Block Streak: Skill Puzzle"
   genre: Block puzzle
   tagline: Fill rows, columns and 3x3 squares, chain your clears and keep the streak alive.
   email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: colorsort
-  name: Color Sort
-  store_name: "Color Sort: Puzzle Game"
+  name: Rifumi
+  store_name: "Rifumi: Color Sort"
   genre: Sorting puzzle
   tagline: Pour colored liquids between tubes and bring a faded coral reef back to life.
   email: mekaxstudio@gmail.com
   app_store: ""
 
 - slug: flowdots
-  name: Line Dots
-  store_name: "Line Dots: Puzzle Game"
+  name: Aqua Dots
+  store_name: "Aqua Dots: Fish Rescue Puzzle"
   genre: Logic puzzle
-  tagline: Connect every pair of glowing dots and fill the whole board. New puzzles every day.
+  tagline: Connect every pair of dots, fill the whole board and rescue the fish. New puzzles every day.
   email: mekaxstudio@gmail.com
   app_store: ""
 
@@ -63,5 +63,13 @@
   store_name: "Traffic Fly: Rocket Car"
   genre: Racing
   tagline: Weave through highway traffic, charge your rocket with near misses and flip over the car ahead.
+  email: mekaxstudio@gmail.com
+  app_store: ""
+
+- slug: wearup
+  name: WearUp
+  store_name: "WearUp"
+  genre: AI stylist
+  tagline: Add your clothes and get an outfit for wherever you are going, with tips from your personal AI stylist.
   email: mekaxstudio@gmail.com
   app_store: ""
